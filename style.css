@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f8f8f8;
+  color: #2e2e2e;
+}
+
+header {
+  background: #6a4e42;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2em;
+  background: #b7a16f;
+  color: #fff;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1em;
+  background: #2e2e2e;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.galeri img {
+  width: 30%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #6a4e42;
+  color: white;
+}
+
+.slider-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+}
+
+.slider img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+  scroll-snap-align: start;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
